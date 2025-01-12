@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #06ef29;
+}
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.todo-list {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.todo-item {
+  background: #c6ca04;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+button {
+  background: #f76c6c;
+  border: none;
+  color: rgb(247, 5, 5);
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #0cde13;
+}
